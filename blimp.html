@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="JavaScript, JS, minigames, games">
+  <meta name="description" content="Grab the boxes, dodge the drones!">
+  <meta name="author" content="Ozwald Cavendish">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blimp!</title>
+  <style>
+    body {font-family: monospace;
+          font-weight: bold;
+          background-color: lightgreen; /* For browsers that do not support gradients */
+          background-image: linear-gradient(lightgreen, white);}
+    div {text-align: center;
+         padding: 3px;}
+  </style>
+  <script src="src/blimp.js"></script>
+</head>
+
+<body>
+  <div id="game_container">
+  </div>
+  <div id="instructions">
+    <p>Using [W][A][S][D] keys, fly to grab the cargo box</p>
+    <p>Fly to the mother-blimp to deliver the cargo</p>
+    <p>Don't hit the drones!</p>
+  </div>
+  <script>
+    startGame();
+  </script>
+</body>
+</html>
